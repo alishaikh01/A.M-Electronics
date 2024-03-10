@@ -1,0 +1,262 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
+
+.navbar-nav > li {
+    display: table-cell;
+    text-align: center;
+}
+
+.navbar-nav > li > a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px;
+    font-size: 19px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #ff8c08; /* Light grey on hover */
+}
+
+.form-inline {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-outline-success {
+    border-radius: 5px;
+}
+
+.hero-section {
+    position: relative;
+    background-color: #007bff; /* Primary blue color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+
+.hero-content {
+    max-width: 80%;
+}
+
+.hero-title {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.join-us-btn {
+    background-color: #fff; /* White background */
+    color: #007bff; /* Primary blue text color */
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.join-us-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text color on hover */
+}
+
+.hero-image img {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.featured-products-section {
+    padding: 50px 0;
+    background-color: #fff; /* White background */
+}
+
+.featured-product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.featured-product-card:hover {
+    transform: scale(1.05);
+}
+
+.featured-product-image {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.featured-product-details {
+    padding: 20px;
+}
+
+.featured-product-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.featured-product-description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.featured-product-price {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #007bff; /* Primary blue color */
+    margin-bottom: 15px;
+}
+
+.shop-now-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.shop-now-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.categories-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.category-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-image {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.category-details {
+    padding: 20px;
+}
+
+.category-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.category-description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* New styles for Deals and Promotions Section */
+.deals-section {
+    padding: 50px 0;
+    background-color: #fff; /* White background */
+}
+
+.promotion-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.promotion-card:hover {
+    transform: scale(1.05);
+}
+
+.promotion-image {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.promotion-details {
+    padding: 20px;
+}
+
+.promotion-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.promotion-description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.promotion-expiry {
+    font-size: 1em;
+    color: #dc3545; /* Red color for urgency */
+}
+
+
+.contact-section {
+    padding: 50px 0;
+    background-color: #fff; /* White background */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary blue color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
